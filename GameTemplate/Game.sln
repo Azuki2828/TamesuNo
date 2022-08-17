@@ -28,8 +28,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameBoot", "Game\GameBoot.v
 		{9BF1ADF3-EB57-35E8-B156-ADE8FFC7E2F0} = {9BF1ADF3-EB57-35E8-B156-ADE8FFC7E2F0}
 	EndProjectSection
 EndProject
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "EnemyState", "Game\EnemyState\EnemyState.pyproj", "{222C483A-29EE-4410-9D98-F13A968D4368}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -170,18 +168,6 @@ Global
 		{B22181F2-A2F5-461C-88B8-F8AC02C72049}.Release|x64.Build.0 = Release|x64
 		{B22181F2-A2F5-461C-88B8-F8AC02C72049}.Release|x86.ActiveCfg = Release|Win32
 		{B22181F2-A2F5-461C-88B8-F8AC02C72049}.Release|x86.Build.0 = Release|Win32
-		{222C483A-29EE-4410-9D98-F13A968D4368}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{222C483A-29EE-4410-9D98-F13A968D4368}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{222C483A-29EE-4410-9D98-F13A968D4368}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{222C483A-29EE-4410-9D98-F13A968D4368}.Master|Any CPU.ActiveCfg = Master|Any CPU
-		{222C483A-29EE-4410-9D98-F13A968D4368}.Master|x64.ActiveCfg = Master|Any CPU
-		{222C483A-29EE-4410-9D98-F13A968D4368}.Master|x86.ActiveCfg = Master|Any CPU
-		{222C483A-29EE-4410-9D98-F13A968D4368}.Preview|Any CPU.ActiveCfg = Debug|Any CPU
-		{222C483A-29EE-4410-9D98-F13A968D4368}.Preview|x64.ActiveCfg = Debug|Any CPU
-		{222C483A-29EE-4410-9D98-F13A968D4368}.Preview|x86.ActiveCfg = Debug|Any CPU
-		{222C483A-29EE-4410-9D98-F13A968D4368}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{222C483A-29EE-4410-9D98-F13A968D4368}.Release|x64.ActiveCfg = Release|Any CPU
-		{222C483A-29EE-4410-9D98-F13A968D4368}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

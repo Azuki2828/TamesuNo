@@ -388,10 +388,8 @@ float4 PSMain(PSInput psIn) : SV_Target0
 	else {
 
 		//環境光を加算。
-		lig += float3(0.001f, 0.001f, 0.001f);
-	}
-
-	
+        lig += float3(1.0f, 1.0f, 1.0f);
+    }
 	
 	//最終カラーを初期化。
 	float4 finalColor = float4(albedoColor, 1.0f);

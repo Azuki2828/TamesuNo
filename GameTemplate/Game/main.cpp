@@ -1,5 +1,6 @@
 #include "stdafx.h"
 #include "system/system.h"
+#include "Game.h"
 
 namespace nsMyGame {
 
@@ -87,7 +88,7 @@ namespace nsMyGame {
 		////////////////////////////////////////////////
 		
 		//タイトル画面から始まる。
-		//NewGO<CGameTitle>(enPriority_Zeroth);
+		NewGO<CGame>(enPriority_Zeroth);
 
 		// ここからゲームループ。
 		while (DispatchWindowMessage())
@@ -130,7 +131,7 @@ namespace nsMyGame {
 		CRenderingEngine::CreateRenderingEngine();			//レンダリングエンジン
 		EffectEngine::CreateInstance();						//エフェクトエンジン
 		CSoundManager::CreateInstance();					//サウンドエンジン
-		NewGO<CFade>(enPriority_Zeroth, c_classNameFade);	//フェード
+		//NewGO<CFade>(enPriority_Zeroth, c_classNameFade);	//フェード
 	}
 
 	void InitBGMAndSE() {
